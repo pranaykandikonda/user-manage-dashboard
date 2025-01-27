@@ -1,0 +1,73 @@
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.pagination-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.page-button {
+  width: 30px;
+  height: 30px;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.page-button:hover {
+  background-color: #3e8e41;
+}
+
+.active {
+  background-color: #3e8e41;
+}
+
+@media only screen and (max-width: 768px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  .pagination-container {
+    gap: 5px;
+  }
+
+  .page-button {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .app-container {
+    padding: 5px;
+  }
+
+  .user-form-container,
+  .user-list-container {
+    margin-bottom: 10px;
+  }
+
+  .pagination-container {
+    gap: 2px;
+  }
+
+  .page-button {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+  }
+}

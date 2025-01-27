@@ -1,0 +1,16 @@
+body{
+    font-family: Roboto;
+}
+
+.error-boundary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset-button{
+    color: red;
+    border: 1px solid red;
+    background-color: #ffffff;
+}

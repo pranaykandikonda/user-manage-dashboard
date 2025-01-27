@@ -1,0 +1,107 @@
+body {
+  font-family: Roboto;
+}
+
+.user-list-container {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-list-container h1 {
+  margin-bottom: 20px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f0f0f0;
+}
+
+.edit-button {
+  width: 80px;
+  height: 30px;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #3e8e41;
+}
+
+.delete-button {
+  width: 80px;
+  height: 30px;
+  background-color: #f44336;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  background-color: #e91e63;
+}
+
+@media only screen and (max-width: 768px) {
+  .user-list-container {
+    padding: 10px;
+  }
+
+  .user-table th,
+  .user-table td {
+    padding: 5px;
+  }
+
+  .edit-button,
+  .delete-button {
+    width: 60px;
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .user-list-container {
+    padding: 5px;
+  }
+
+  .user-table th,
+  .user-table td {
+    padding: 2px;
+  }
+
+  .edit-button,
+  .delete-button {
+    width: 40px;
+    height: 15px;
+  }
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+.no-users {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  text-align: center;
+  margin-top: 1rem;
+}
